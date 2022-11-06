@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Continous Deployment</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/white.css">
+
+  <!-- Override the Reveal theme variables: -->
+  <!-- https://github.com/hakimel/reveal.js/blob/master/css/theme/template/exposer.scss -->
+  <style type="text/css">
+    :root {
+     
+      /* Color from slides */
+      --r-background-color: #fff;
+
+      /* Main text color */
+      --r-main-color: #fff;
+      --r-text-align: left;
+
+      /* Arial font is recommended */
+      --r-heading-font: Arial, Helvetica Neue, Helvetica, sans-serif;
+      --r-main-font: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+      /* For consistency with the template: */
+      --r-heading-font-weight: normal;
+      --r-heading-text-transform: none;
+      --r-heading-text-shadow: none;
+
+      /* Section subheader color per theme */
+      --r-section-subhead-color: #005C91;
+    }
+  </style>
+
+  
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+        <section>
+      <section data-background="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777080/default-social-5-f95901aa20eb4661d6c68b58abcff464.png">
+       
+        <a href="https://github.com/logos">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="reveal.js logo" style="height: 360px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+        </a>
+        <h1 style="text-align: right; font-size: 60px; margin-top: 5%; color: #fff;">Continous Deloyment</h1>
+        <p style="text-align: right; font-size: 30px;color: #fff;">Name:</p>
+        </p>
+      </section>
+      <section data-background="rgba(85,90,95,1)">
+        <a href="https://www.atlassian.com/blog/continuous-delivery/practical-continuous-deployment">
+            <img src="https://atlassianblog.wpengine.com/wp-content/uploads/continuous-delivery-default-600x300.png" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+        </a>
+        <h2>Continous Deployment</h2>
+        <p>
+            Understanding the basic of automated software delivery
+        </p>
+      </section>
+      
+    <section data-auto-animate data-background="rgba(85,90,95,1)">
+        <h3>Topic of the Day</h3>
+        <ul>
+            <li>What is Continous Deployment</li>    
+        </ul>
+    </section>
+    <section data-auto-animate data-background="rgba(85,90,95,1)">
+        <h3>Topic of the Day</h3>
+        <ul>
+            <li>What is Continous Deployment</li> 
+            <li>Why is Continous Deployment necessary</li>
+        </ul>
+    </section>
+    <section data-auto-animate data-background="rgba(85,90,95,1)">
+        <h3>Topic of the Day</h3>
+        <ul>
+            <li>What is Continous Deployment</li>
+            <li>Why is Continous Deployment necessary</li>
+            <li>How it Works and why we need t</li>
+        </ul>
+    </section>
+
+
+
+    </section>
+<section data-background="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777080/default-social-5-f95901aa20eb4661d6c68b58abcff464.png">
+      <section data-auto-animate>
+        <h2 > What is Continous Deployment?
+        </h2>
+    
+        <ul>
+           <li> Continous Deployment is the actual delivery of features and fixes to the customer as soon as the updates are ready.</li>
+        </ul>
+         
+        
+    
+      </section>
+      <section data-auto-animate>
+        <h2 > What is Continous Deployment?
+        </h2>
+    
+                   
+           <ul>
+            <li> Continous Deployment is the actual delivery of features and fixes to the customer as soon as the updates are ready.</li>
+            <li> It is usually practiced in the SaaS world, as hosted services are easiest to silently update in the background</li>
+         </ul>
+
+         </section>
+         <section>
+          <h2>Before Continous Deployment...</h2>
+          <p>
+            <span style="display: inline-block; text-align: left;" class="fragment fade-right">There are other core factors to consider:</span>
+           <ul>
+            <span style="display: inline-block; font-size: larger;" class="fragment fade-up"><li>CONTINOUS INTERGRATION </li> </span> 
+            <span style="display: inline-block; font-size: larger;" class="fragment fade-up"><li>CONTINOUS DELIVERY </li></span>
+          </ul>
+          </p>
+         </section>
+          <section data-auto-animate>
+           
+            <h2>CONTINOUS INTERGRATION</h2>
+            <p class="fragment fade-in" data-auto-animate="">
+              Continuous integration is a DevOps software development practice where developers regularly merge their code changes into a central repository, after which automated builds and tests are run.
+            </p>
+            <p data-auto-animate="">
+              <span style="display: inline-block;" class="fragment fade-left"> It refers to the build or integration stage of the software release process and entails both an automation component and cultural component</span> 
+            </p>
+            <p ><span style="display: inline-block;" class="fragment fade-left">It is essentially the first step</span></p>
+          </section>
+            <section data-auto-animate>
+            <p>
+                <img src="https://assets-global.website-files.com/622642781cd7e96ac1f66807/6231822f4ff7298b67b02e9c_image3-8-1024x504.png" alt="" class="fragment fade-in-then-semi-out" style="height: 400px; margin: 0 auto 4rem auto; background:transparent" class="demo-logo">
+            </p>
+          </section>
+          <section data-auto-animate>
+            <h2>CONTINOUS DELIVERY</h2>
+            <p style="text-align: left;">
+              <span style="display: inline-block;" class="fragment fade-down"> This is the next stage in the 3way-phase</span>
+              <span style="display: inline-block;" class="fragment fade-down">Continuous Delivery is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
+                <span style="display: inline-block;" class="fragment fade-down"> Its main goal is to usher in the deployment stage smoothly</span>
+              </section>
+              <section data-auto-animate="">
+                <h2>Continue....</h2>
+                <img src="data:image/png;base64,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" alt="" class="fragment fade-in-then-semi-out" style="height: 360px; margin: 0 auto 4rem auto; background:transparent" class="demo-logo">
+
+              </section>
+              <section data-auto-animate>
+                <h2>ALL TOGETHER</h2>
+              
+                <span class="fragment fade-in"> <li >Continous integration</li> </span>
+                  <span class="fragment fade-in"> <li>Continous Delivery</li> </span>
+                  <span class="fragment fade-in"> <li>Continous Deployment</li> </span>
+                  <p style="text-align: left;" class="fragment fade-right">
+                   These are practices that seek to speed up the process of releasing software by shortening feedback loops and automating repetitive tasks. 
+                  <span class="fragment fade-right;">These practices play a key role in making the agile principle of frequently delivering valuable, working software to users a reality. </span>
+                  </p>
+                  
+                </section>
+                <section>
+                  <img src="https://academy.pega.com/sites/default/files/styles/1024/public/media/images/2020-06/devops_cicd.PNG?itok=Wn-5irvX" alt="" class="fragment fade-in-then-semi-out" style="height: 400px; margin: 0 auto 4rem auto; background:transparent" class="demo-logo">
+
+                </section>
+          </section>
+         
+        
+    
+      </section>
+
+    </section>
+
+
+      <section data-auto-animate data-background="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777080/default-social-5-f95901aa20eb4661d6c68b58abcff464.png">
+       
+        <section>
+        <h2 style="color: black ;">IMPORTANCE </h2>
+
+        <p>The ultimate goal of Continous Deployment:
+        </p>
+          <p><li class="fragment fade-in">Minimize cycle time</li></p>
+          <p><li class="fragment fade-in">Automation of processes</li></p>
+          <p><li class="fragment fade-in">Make deployment frictionless</li></p>
+        </section>
+        <section>
+          <h3>Continue...</h3>
+          <p style="text-align: left;">
+            <span class="fragment">Continuous deployment goes one step further </span> <span class="fragment">and combines continuous integration and continuous delivery to make software</span> <span class="fragment">automatically available to users without any human intervention.</span>
+          </p>
+          <p style="text-align: left;">
+            <span class="fragment">In this sense, continuous deployment accelerates releases to market </span> <span class="fragment">and it also quickens the feedback process</span> <span class="fragment"> with both developers and customers.</span>
+          </p>
+        </section>
+    
+      </section>
+
+      <section data-auto-animate data-background="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777080/default-social-5-f95901aa20eb4661d6c68b58abcff464.png">
+       <section>
+        <h2>STAGES OF CONTINOUS DEPLOYMENT</h2>
+      </section>
+      <section data-auto-animate>
+        <h3 class="fade-in-then-out">Code Analysis</h3>
+        <div class="r-stack">
+          <img src="https://www.perforce.com/sites/default/files/image/2019-07/image-code-with-confidence.png" width="450" height="300" style="background: transparent;" class="fragment fade-in">
+          
+                 </div>
+                
+                 <p style="text-align: left;">
+                  <span class="fragment">Analysis of the code is for security vulnerabilities</span> <span class="fragment"> and comparing it against a set of coding rules</span> <span class="fragment">meant to keep your code readable and maintainable according to team standards.</span>
+                </p>
+                </section>
+                <section>
+                  <h3 class="fade-in-then-out">Compile Code</h3>
+        <div class="r-stack">
+          <img src="https://cdn-icons-png.flaticon.com/512/6461/6461844.png" width="200" height="200" style="background: transparent;" class="fragment fade-in">
+          
+                 </div>
+                
+                 <p style="text-align: left;">
+                  <span class="fragment">This is the actual construction of the software</span> <span class="fragment"> It may involve;</span>
+                  <span class="fragment"><li>compiling source files</li></span>
+                  <span class="fragment"> <li>packaging compiled files into compressed formats (such as jar, zip)</li></span>
+                  <span class="fragment"> <li>
+                      producing installers</li></span></span><span class="fragment"> <li>
+                        creating or updating of database schema or data</li></span>
+                </p>
+                </section>
+                <section>
+                  <h3 class="fade-in-then-out">Testing</h3>
+        <div class="r-stack">
+          <img src="https://cdn-icons-png.flaticon.com/512/7187/7187431.png" width="200" height="200" style="background: transparent;" class="fragment fade-in">
+          
+                 </div>
+                
+                 <p style="text-align: left;">
+                  <span class="fragment">In this phase, we have various kinds of testing.</span> <span class="fragment">One of them is the unit test </span> <span class="fragment">testing phase again comes into action after deployment for a sanity test..</span>
+                 
+                </p>
+                </section>
+                <section>
+                  <h3 class="fade-in-then-out">Deploy</h3>
+        <div class="r-stack">
+          <img src="https://cdn-icons-png.flaticon.com/512/1508/1508763.png" width="200" height="200" style="background: transparent;" class="fragment fade-in">
+          
+                 </div>
+                
+                 <p style="text-align: left;">
+                  <span class="fragment">Final phase of Continous Deployment </span> <span class="fragment"> where build is moved from one environment to another.</span> <span class="fragment">Best practice of deploying code is to deploy in different stages like dev, staging and then to the production environment.</span>
+                 
+                </p>
+                </section>
+                <section>
+                  <h2>TOOLS FOR CONTINOUS DEVELOPMENT</h2>
+                  <p><li class="fragment fade-in">Jira Software for issue tracking</li></p>
+                  <p><li class="fragment fade-in">Git for version control</li></p>
+                  <p><li class="fragment fade-in">Bitbucket for repository management</li></p>
+                  <p><li class="fragment fade-in">Jenkins for the build, test, and deploy automation</li></p>
+                  <p><li class="fragment fade-in">Ansible for configuration management on cross-host</li></p>
+                  <p><li class="fragment fade-in">Docker for containerization tool.</li></p>
+
+                </section>
+      
+      </section>
+
+      <section data-auto-animate data-background="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777080/default-social-5-f95901aa20eb4661d6c68b58abcff464.png">
+       <section>
+        <h2>FINAL REMARKS</h2>
+        <P style="text-align: left;">
+          Crucial Takeaways from Continous Deployment;
+          <span class="fragment"><li>It is a strategy for software releases wherein any commit that passes the automated testing phase is automatically released into the production deployment.</li></span>
+                  <span class="fragment"> <li>It provides a single view across all applications and environments.</li></span>
+                  <span class="fragment"> <li>It integrates teams and processes with a unified pipeline.</li></span></span>
+                  </section>
+                  <section>
+                  <span class="fragment"> <li>It connects your existing tools and technologies (such as CI providers, DevOps tools, or scripts) into a harmonious workflow.</li></span>
+                  <span class="fragment"> <li>Improves overall productivity.</li></span></span>
+        </P>
+      </section>
+      </section>
+      </section>
+
+
+      
+     
+    
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
